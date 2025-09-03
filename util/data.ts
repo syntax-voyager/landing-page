@@ -30,7 +30,21 @@ export const hero = {
 export const about = {
   title: "Ekaant (एकांत)",
   description: "Meaning solitude in Sanskrit — was born from a simple yet powerful vision: to create a space where people could escape the chaos of everyday life and experience true peace in the lap of nature. Our retreat is designed around the principles of sustainable living, mindful travel, and authentic rural experiences. At Ekaant, you'll find no loud music, no distractions — only nature's rhythm, traditional hospitality, and the gentle hum of wildlife.",
-  mission: "Whether you're a solo traveller looking for quiet, a couple seeking a soulful escape, or a family wanting to introduce your children to the joys of rural India — Ekaant welcomes you with open arms and a calm heart."
+  mission: "Whether you're a solo traveller looking for quiet, a couple seeking a soulful escape, or a family wanting to introduce your children to the joys of rural India — Ekaant welcomes you with open arms and a calm heart.",
+  amenities: [
+    {
+      category: "Accommodation",
+      items: ["Comfortable eco-friendly cottages", "Traditional mud houses", "Stargazing decks", "Organic cotton bedding"]
+    },
+    {
+      category: "Activities", 
+      items: ["Bird watching tours", "Organic farming experience", "Nature walks", "Bonfire nights", "Traditional cooking classes"]
+    },
+    {
+      category: "Facilities",
+      items: ["Solar-powered lighting", "Rainwater harvesting", "Organic vegetable garden", "Library corner", "Meditation spaces"]
+    }
+  ]
 };
 
 export const reach = {
